@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# Expo-specific folders
+.expo/
+.expo-shared/
+
+# VSCode configuration
+.vscode/
+
+# Build directories and artifacts
+dist/
+build/
+
+# macOS system files
+.DS_Store
+
+# Xcode specific (iOS) files
+ios/Pods/
+ios/build/
+
+# Android specific files
+android/.cxx/
+android/.gradle/
+android/build/
+android/local.properties
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+temp/
+
+# Environment files
+.env
+.env.* # If you have multiple .env files like .env.production or .env.development
+
+# Expo-specific configuration for services
+*.keystore
+
+# Miscellaneous
+*.swp # Swap files from editors
+*.swo
+*.idea/ # JetBrains IDE settings
+Thumbs.db # Windows system file

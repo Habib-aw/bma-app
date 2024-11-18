@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Baitul Mamur Academy",
+    "slug": "BmaApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./Assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000037"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/beb692c0-f455-4041-99e6-89947bf40503"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.habibaw.BmaApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.habibaw.BmaApp"
+    },
+    "web": {
+      "favicon": "./Assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.baitul-mamur-academy",
+          "enableGooglePay": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "beb692c0-f455-4041-99e6-89947bf40503"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
